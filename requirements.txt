@@ -1,0 +1,23 @@
+# python dependencies
+
+# for exe (if executable is desired)
+# pyinstaller
+
+# testing
+pytest
+pytest-cov
+# mock
+
+# linting nad formatting
+flake8
+pylint
+autopep8
+black
+
+# refactoring
+# rope
+
+#documentation
+# sphinx
+
+# run pip install -r requirements.txt to install all requirements at once
