@@ -1,0 +1,43 @@
+{
+    // to define every time!!
+    // linux
+    "python.defaultInterpreterPath": "/home/foresti/.virtualenvs/venv_test/bin/python",
+
+    //environment
+    "python.envFile": "${workspaceFolder}/.env",
+    // test settings
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+
+    // formatting
+    // sort imports with ctr+shift+p -> sort imports
+    "python.formatting.provider": "black",
+    "editor.defaultFormatter": "ms-python.python",
+    "python.formatting.blackArgs": ["--experimental-string-processing"],
+    "editor.formatOnSave": true,
+
+    //linting
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--ignore=E501"],
+    "python.linting.pylintEnabled": true,
+
+    
+    //editor
+    "editor.rulers": [87],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+
+    "files.exclude": {
+        "**/.pytest_cache/": true,
+        "**/__pycache__": true,
+        ".idea/": true
+    },
+
+
+}
