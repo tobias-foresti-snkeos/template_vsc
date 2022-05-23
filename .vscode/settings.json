@@ -1,5 +1,4 @@
 {
-    // to define every time!!
     // linux
     // "python.defaultInterpreterPath": "/home/foresti/.virtualenvs/venv_test/bin/python",
     //windows
@@ -28,7 +27,7 @@
     "python.linting.flake8Args": ["--config=${workspaceFolder}/config/.flake8"],
     // "python.linting.flake8Args": ["--ignore=E501"],
     "python.linting.pylintEnabled": true,
-    "python.linting.pylintArgs": ["--disable=c0103", "--ignore-patterns=**/tests/**/*.py"],
+    "python.linting.pylintArgs": ["--disable=c0103", "--max-line-length=120"],
 
     
     //editor
