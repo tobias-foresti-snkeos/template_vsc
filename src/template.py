@@ -1,5 +1,5 @@
 """----------------------------------------------------------------------------
-    Template script created by Tobias Foresti
+    Template script created by Tobias Foresti MAIN
     ---------------------------------------------------------------------------
 """
 
