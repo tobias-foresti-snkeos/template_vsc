@@ -30,12 +30,8 @@ def get_input_args():
         required=True,
         help="string to print to prompt",
     )
-    my_parser.add_argument(
-        "-d", "--dashes", action="store_true", help="prettify output with dashes"
-    )
-    my_parser.add_argument(
-        "-s", "--stars", action="store_true", help="prettify output with stars"
-    )
+    my_parser.add_argument("-d", "--dashes", action="store_true", help="prettify output with dashes")
+    my_parser.add_argument("-s", "--stars", action="store_true", help="prettify output with stars")
 
     args = my_parser.parse_args()
     return args.input, args.dashes, args.stars
