@@ -1,0 +1,80 @@
+{
+  //editor settings
+  "editor.fontFamily": "Consolas, 'Courier New', monospace, 'RobotoMono NF'",
+  "editor.tokenColorCustomizations": {
+    // "comments": "#00962d",
+    "functions": "#ffd000",
+    "variables": "#6fc8eb",
+    "keywords": "#9797fd"
+    // "strings": "#9ad167"
+  },
+  "explorer.confirmDelete": false,
+  "terminal.integrated.defaultProfile.windows": "git-bash",
+  "terminal.integrated.fontFamily": "RobotoMono NF",
+  "terminal.integrated.profiles.windows": {
+    "git-bash": {
+      "source": "Git Bash",
+      "args": ["-i", "-l"]
+    }
+  },
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "[Default Dark+]": {
+      "activityBar.background": "#232323",
+      "activityBarBadge.background": "#ee0b3c",
+      "activityBar.foreground": "#ffffff",
+      "titleBar.activeBackground": "#0d0d0d",
+      "editor.background": "#070707",
+      "terminal.background": "#000000",
+      "sideBar.background": "#111111",
+      "statusBar.background": "#262626",
+    }
+  },
+  
+  // language settings
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.hovers.currentLine.over": "line",
+
+  // C++
+  "C_Cpp.default.cppStandard": "c++20",
+  "cmake.configureOnOpen": true,
+  
+  // TS/JA
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  
+  //python
+  "autoDocstring.docstringFormat": "numpy",
+  
+  // json
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+
+  // other extensions
+  "sonarlint.ls.javaHome": "c:\\Users\\tobias.foresti\\.vscode\\extensions\\sonarsource.sonarlint_managed-jre\\jre\\jdk-11.0.15+10-jre",
+  "sonarlint.connectedMode.connections.sonarqube": [
+    {
+      "serverUrl": "https://ec2-18-195-72-74.eu-central-1.compute.amazonaws.com/",
+      "token": "7eb5c9adf84267ff3bff89a0e192b9f8e2849570"
+    }
+  ]  
+}
