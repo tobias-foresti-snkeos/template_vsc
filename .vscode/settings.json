@@ -33,6 +33,9 @@
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
 
+    // docstrings
+    "autoDocstring.docstringFormat": "numpy",
+
     // exclude files from sidebar
     "files.exclude": {
         "**/.pytest_cache/": true,
