@@ -1,10 +1,8 @@
 {
-    // linux
+    // Virtualenv
     // "python.defaultInterpreterPath": "/home/foresti/.virtualenvs/venv_test/bin/python",
-    //windows
-    "python.defaultInterpreterPath": "C:\\pyproj\\template_vsc\\venv_win\\Scripts\\python.exe",
+    "python.defaultInterpreterPath": "C:\\github\\temp\\py\\template_vsc\\venv\\Scripts\\python.exe",
 
-    //environment
     "python.envFile": "${workspaceFolder}/.env",
     // test settings
     "python.testing.pytestArgs": [
@@ -25,7 +23,6 @@
     "python.linting.lintOnSave": true,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": ["--config=${workspaceFolder}/config/.flake8"],
-    // "python.linting.flake8Args": ["--ignore=E501"],
     "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": ["--disable=c0103", "--max-line-length=120"],
 

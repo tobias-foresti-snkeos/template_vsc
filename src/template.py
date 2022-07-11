@@ -5,7 +5,6 @@
 
 import argparse
 import os
-from logging import WARNING
 
 
 class CmdColors:

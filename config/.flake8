@@ -3,6 +3,7 @@
 format = default
 exclude =
     __pycache__
+    __init__.py
 
 filename = *.py
 
